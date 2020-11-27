@@ -6,8 +6,8 @@ Show the current weather from meteomedia.de in a little window using **Python 3*
 
 ## Costumizing for your weather station
 1. Choose your weather station
-2. Copy url from grafic on the right hand side
-3. Paste url to variable **url**
+2. Copy number from url
+3. Paste number to variable **Station_Number**
 4. Compile
 
 ## Just download exe-File
