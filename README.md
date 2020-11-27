@@ -9,3 +9,7 @@ Show the current weather from meteomedia.de in a little window using **Python 3*
 2. Copy url from grafic on the right hand side
 3. Paste url to variable **url**
 4. Compile
+
+## Just download exe-File
+1. Download dist-folder
+2. Execute wetter_aktuell.exe
