@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Wetter_aktuell.py'],
-             pathex=['C:\\Users\\KETZEL\\Desktop\\Python\\Wetter aktuell'],
+             pathex=['C:\\Users\\KETZEL\\Desktop\\Python\\aktuelles_Wetter'],
              binaries=[],
              datas=[],
              hiddenimports=[],

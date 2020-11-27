@@ -1,0 +1,1 @@
+pyinstaller.exe --onefile --windowed --icon=.\cloud.ico .\Wetter_aktuell.py
