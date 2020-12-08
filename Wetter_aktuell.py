@@ -26,6 +26,7 @@ def read_weather_stations():
             stat_name = i[re.search('title="', i).span()[1]:re.search('">', i).span()[0]].replace('&Auml;', 'Ä').replace(
                 '&Ouml;', 'Ö').replace('&Uuml;', 'Ü').replace('&auml;', 'ä').replace('&ouml;', 'ö').replace('&uuml;', 'ü').replace('&szlig;', 'ß')
             Stationen[stat_name] = stat_no
+        Stationen = {key: value for (key, value) in sorted(Stationen.items(), key=lambda item: item[0])}
         worked = True
     except Exception as e:
         # print(e)
