@@ -14,9 +14,6 @@ def read_weather_stations():
     try:
         c = urlopen('http://wetterstationen.meteomedia.de/', timeout=1)
         a = str(c.read(), 'utf-8')
-        with open('html_old.txt', 'w') as i:
-            i.write(a)
-
         a1 = a.split('\n')
         ai1 = a1.index('<map name="Karte">')+1
         ai2 = a1.index('</map>')
